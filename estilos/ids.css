@@ -47,27 +47,35 @@
 	height: 920px;
 	background: url('../img/estrela.png') no-repeat;
 	background-size: 100% 100%;
-	margin: -2% auto;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	-webkit-animation: cresce 10s;
 }
 
 #sombra{
-	width: 100px;
-	height: 100px;
+	width: 1px;
+	height: 1px;
 	border-radius: 200px;
 	position: absolute;
-	margin: 34% 46%;
+	margin: 0;
+	top: 50%;
+	left: 50%;
 	z-index: -1;
 	box-shadow: 0px 0px 600px 500px #187918;
 	-webkit-animation: sombra 10s;
 }
 
 #sombra2{
-	width: 100px;
-	height: 100px;
+	width: 1px;
+	height: 1px;
 	border-radius: 200px;
 	position: absolute;
-	margin: 34% 46%;
+	margin: 0;
+	top: 50%;
+	left: 50%;
 	z-index: -2;
 	-webkit-animation: sombra2 10s;
 }
@@ -319,7 +327,7 @@
 	-webkit-animation: gira 1s;
 }
 
-/* Animação de abertura */
+/* AnimaÃ§Ã£o de abertura */
 @-webkit-keyframes open {
 	0% { background: url('http://hypescience.com/wp-content/uploads/2010/10/bigbang.jpg') bottom; background-position: center; opacity: 0; }
 	15% { opacity: 1; }
@@ -356,7 +364,7 @@
 	75% {opacity: 0;}
 	100% {opacity: 1;}	
 }
-/* Fim animação de abertura */
+/* Fim animaÃ§Ã£o de abertura */
 
 /* gira estrelas */
 @-webkit-keyframes gira {
